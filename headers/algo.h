@@ -18,12 +18,13 @@ int shar_search_nodelta(vector<int> a, int key);
 
 vector<vector<int>> floyd_warshal(vector<vector<int>>);
 
-int dijkstra(int, int, vector<vector<int>>, vector<vector<int>>);
-int astar(int, int, vector<vector<int>>, vector<vector<int>>);
+int dijkstra_heuristic(int, int, vector<vector<int>>, vector<vector<int>>);
+int greedy_best_first_heuristic(int, int, vector<vector<int>>, vector<vector<int>>);
+int astar_heuristic(int, int, vector<vector<int>>, vector<vector<int>>);
 
 void greedy_search(vector<vector<int>>, vector<vector<int>>, int, map<int, string>, 
 	int (*func)(int,int, vector<vector<int>>, vector<vector<int>>));
-void dijkstra(vector<vector<int>>, int, map<int, string>);
-void output_dijkstra(vector<int>, vector<int>, int, map<int, string>);
+void dijkstra_search(vector<vector<int>>, int, map<int, string>);
+void output_path(vector<int>, vector<int>, int, map<int, string>);
 
 #endif 

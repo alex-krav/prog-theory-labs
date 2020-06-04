@@ -16,8 +16,12 @@ int main()
 	read_vec_from_file(in_heuristic, &heuristic);
 	read_map_from_file(in_cities, &cities);
 
-	for (int i = 0; i < size; ++i)
-		greedy_search(matrix, heuristic, i, cities, astar);
+	for (int i = 0; i < size; ++i) {
+		cout << "Greedy Best-First" << endl;
+		greedy_search(matrix, heuristic, i, cities, greedy_best_first_heuristic);
+		cout << "A-star" << endl;
+		greedy_search(matrix, heuristic, i, cities, astar_heuristic);
+	}
 
 	return 0;
 }

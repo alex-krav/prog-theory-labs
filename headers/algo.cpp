@@ -225,11 +225,15 @@ vector<vector<int>> floyd_warshal(vector<vector<int>> vec) {
     return result;
 }
 
-int dijkstra(int i, int j, vector<vector<int>> cost, vector<vector<int>> heuristic) {
+int dijkstra_heuristic(int i, int j, vector<vector<int>> cost, vector<vector<int>> heuristic) {
     return cost[i][j];
 }
 
-int astar(int i, int j, vector<vector<int>> cost, vector<vector<int>> heuristic) {
+int greedy_best_first_heuristic(int i, int j, vector<vector<int>> cost, vector<vector<int>> heuristic) {
+    return heuristic[i][j];
+}
+
+int astar_heuristic(int i, int j, vector<vector<int>> cost, vector<vector<int>> heuristic) {
     return cost[i][j] + heuristic[i][j];
 }
 
@@ -284,10 +288,10 @@ void greedy_search(vector<vector<int>> vec, vector<vector<int>> h, int startnode
     }
 
     // output results
-    output_dijkstra(distance, path, startnode, cities);
+    output_path(distance, path, startnode, cities);
 }
 
-void dijkstra(vector<vector<int>> vec, int startnode, map<int,string> cities) {
+void dijkstra_search(vector<vector<int>> vec, int startnode, map<int,string> cities) {
     int n = vec.end() - vec.begin();
     vector<vector<int>> cost;
     vector<int> distance, path, visited;
@@ -337,10 +341,10 @@ void dijkstra(vector<vector<int>> vec, int startnode, map<int,string> cities) {
     }
 
     // output results
-    output_dijkstra(distance, path, startnode, cities);
+    output_path(distance, path, startnode, cities);
 }
 
-void output_dijkstra(vector<int> distance, vector<int> path, int startnode, map<int, string> cities) {
+void output_path(vector<int> distance, vector<int> path, int startnode, map<int, string> cities) {
     int n = distance.end() - distance.begin();
     int i, j;
 
