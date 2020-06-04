@@ -1,0 +1,16 @@
+15
+0 Sydney
+1 Melbourne
+2 Brisbane
+3 Perth
+4 Adelaide
+5 Tweed Heads
+6 Newcastle
+7 Canberra
+8 Sunshine Coast
+9 Wollongong
+10 Geelong
+11 Hobart
+12 Townsville
+13 Cairns
+14 Darwin
