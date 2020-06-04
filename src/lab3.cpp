@@ -18,9 +18,9 @@ int main()
 
 	for (int i = 0; i < size; ++i) {
 		cout << "Greedy Best-First" << endl;
-		greedy_search(matrix, heuristic, i, cities, greedy_best_first_heuristic);
+		search(matrix, heuristic, i, cities, greedy_best_first_heuristic);
 		cout << "A-star" << endl;
-		greedy_search(matrix, heuristic, i, cities, astar_heuristic);
+		search(matrix, heuristic, i, cities, astar_heuristic);
 	}
 
 	return 0;

@@ -237,7 +237,7 @@ int astar_heuristic(int i, int j, vector<vector<int>> cost, vector<vector<int>> 
     return cost[i][j] + heuristic[i][j];
 }
 
-void greedy_search(vector<vector<int>> vec, vector<vector<int>> h, int startnode, map<int,string> cities,
+void search(vector<vector<int>> vec, vector<vector<int>> h, int startnode, map<int,string> cities,
     int (*func)(int, int, vector<vector<int>>, vector<vector<int>>)) {
     int n = vec.end() - vec.begin();
     vector<vector<int>> cost;

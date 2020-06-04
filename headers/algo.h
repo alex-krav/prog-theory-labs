@@ -22,7 +22,7 @@ int dijkstra_heuristic(int, int, vector<vector<int>>, vector<vector<int>>);
 int greedy_best_first_heuristic(int, int, vector<vector<int>>, vector<vector<int>>);
 int astar_heuristic(int, int, vector<vector<int>>, vector<vector<int>>);
 
-void greedy_search(vector<vector<int>>, vector<vector<int>>, int, map<int, string>, 
+void search(vector<vector<int>>, vector<vector<int>>, int, map<int, string>, 
 	int (*func)(int,int, vector<vector<int>>, vector<vector<int>>));
 void dijkstra_search(vector<vector<int>>, int, map<int, string>);
 void output_path(vector<int>, vector<int>, int, map<int, string>);
