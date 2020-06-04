@@ -15,51 +15,51 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="algo.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="headers\algo.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="util.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="headers\util.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="algo.cpp">
+    <ClCompile Include="src\lab1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lab1.cpp">
+    <ClCompile Include="src\lab2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lab2.cpp">
+    <ClCompile Include="src\lab3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="util.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="headers\algo.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="lab3.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="headers\util.cpp">
+      <Filter>Header Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="lab2_input.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab2_input.txt">
+      <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="lab2_input2.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab2_input2.txt">
+      <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="lab3_test.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab3_cities.txt">
+      <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="lab3_simple.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab3_heuristic.txt">
+      <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="lab3_matrix.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab3_matrix.txt">
+      <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="lab3_cities.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab3_simple.txt">
+      <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="lab3_heuristic.txt">
-      <Filter>Source Files</Filter>
+    <Text Include="input\lab3_test.txt">
+      <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
 </Project>

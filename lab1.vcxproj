@@ -138,36 +138,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="algo.h" />
-    <ClInclude Include="util.h" />
+    <ClInclude Include="headers\algo.h" />
+    <ClInclude Include="headers\util.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="algo.cpp" />
-    <ClCompile Include="lab1.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="lab2.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="lab3.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
-    <ClCompile Include="util.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClCompile Include="headers\algo.cpp" />
+    <ClCompile Include="headers\util.cpp" />
+    <ClCompile Include="src\lab1.cpp" />
+    <ClCompile Include="src\lab2.cpp" />
+    <ClCompile Include="src\lab3.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="lab2_input.txt" />
-    <Text Include="lab2_input2.txt" />
-    <Text Include="lab3_cities.txt" />
-    <Text Include="lab3_heuristic.txt" />
-    <Text Include="lab3_matrix.txt" />
-    <Text Include="lab3_simple.txt" />
-    <Text Include="lab3_test.txt" />
+    <Text Include="input\lab2_input.txt" />
+    <Text Include="input\lab2_input2.txt" />
+    <Text Include="input\lab3_cities.txt" />
+    <Text Include="input\lab3_heuristic.txt" />
+    <Text Include="input\lab3_matrix.txt" />
+    <Text Include="input\lab3_simple.txt" />
+    <Text Include="input\lab3_test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

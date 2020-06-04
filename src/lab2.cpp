@@ -1,5 +1,5 @@
-#include "util.h"
-#include "algo.h"
+#include "../headers/util.h"
+#include "../headers/algo.h"
 #include <iostream>
 
 using namespace std;
